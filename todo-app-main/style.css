@@ -1,0 +1,39 @@
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+button{
+	all: unset;
+}
+
+header{
+  background-image: url(./images/icon-sun.svg);
+  background-repeat: no-repeat;
+  background-color: red;
+}
+
+body{
+  background-image: url(./images/bg-desktop-dark.jpg);
+  background-repeat: no-repeat;
+background-color: #181824;
+background-size:cover;
+color:#B3B5CC;
+
+}
+
+
+main{
+  background-color: #25273C;
+  width:700px;
+}
+
+div{
+ border:1px solid #43455A;
+
+}
