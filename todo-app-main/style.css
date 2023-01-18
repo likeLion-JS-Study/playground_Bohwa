@@ -11,29 +11,76 @@ a{
 button{
 	all: unset;
 }
-
-header{
-  background-image: url(./images/icon-sun.svg);
-  background-repeat: no-repeat;
-  background-color: red;
-}
-
 body{
   background-image: url(./images/bg-desktop-dark.jpg);
   background-repeat: no-repeat;
 background-color: #181824;
-background-size:cover;
+background-size:contain;
 color:#B3B5CC;
 
 }
-
-
-main{
-  background-color: #25273C;
+header{
+  background-image: url(./images/icon-sun.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  /* background-color: red; */
   width:700px;
+  margin : 0 auto;
+  
 }
 
-div{
- border:1px solid #43455A;
 
+
+
+ main{
+ 
+  width:700px;
+  margin : 0 auto;
+  line-height: 75px;
+}
+
+.first{
+  height:65px;
+  margin-bottom:20px;
+  border:1px solid #25273c;
+  border-radius: 5px;
+  height:75px;
+  background-color: #25273C;
+}
+
+.second{
+  border-radius: 5px;
+  background-color: #25273C;
+  border:1px solid #25273c;
+}
+
+.second div{
+
+ 
+  height:75px;
+}
+
+.second div:not(:last-of-type){
+  border-bottom:1px solid #43455A;
+}
+
+
+.completed{
+  display:flex; 
+  justify-content: space-around;
+
+}
+
+.completed .active{
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: red;
+}
+
+
+footer{
+  width:700px;
+  margin:0 auto;
+  text-align: center;
+  margin-top : 60px;
 }

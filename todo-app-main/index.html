@@ -24,10 +24,11 @@
 <main>
 
   
-    <div>
+    <div class="first">
       <label><input type="checkbox" name="todo_main" value="new"/>Create a new todo....</label>
     </div>
     <!-- 한칸띄워줘야함 -->
+    <div class="second">
     <div>
       <label> <input type="checkbox" name="todo_main" value="js"/>Complete online JavaScript course</label>
     </div>
@@ -40,26 +41,31 @@
     <div>
       <label> <input type="checkbox" name="todo_main" value="read"/>Read for 1 hour</label>
     </div>
-    <div>
+    <!-- <div>
       <label> <input type="checkbox" name="todo_main" value="groceries"/>Pick up groceries</label>
     </div>
     <div>
       <label> <input type="checkbox" name="todo_main" value="mentor"/>Complete Todo App on Frontend Mentor</label>
-    </div>
+    </div> -->
 
 
-    <div>
+    <div class="completed">
       <span>items left</span>
 
-     <ul>
+     
+       <button>All</button>
+        <button class="active">Active</button>
+        <button>Completed</button>
+     
+     <!-- <ul>
       <li><button>All</button></li>
       <li><button>Active</button></li>
       <li><button>Completed</button></li>
-     </ul>
+     </ul> -->
       <button>Clear Completed</button>
     </div>
 
-
+</div>
 
   </main> 
 
